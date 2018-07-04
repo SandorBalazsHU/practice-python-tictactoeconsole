@@ -6,10 +6,10 @@ class TicTacToe:
 
     def __init__(self):
         #A játéktáblát egy 3x3-as mtrixal implementljuk
-        self.board = [ [0] * 3 ] * 3
+        self.board = [[0,0,0],[0,0,0],[0,0,0]]
 
-    def setField(x,y,value):
-        self.board[x,y] = value
+    def setField(self,x,y,value):
+        self.board[x][y] = value
 
     def getFreeFields():
         count = 0
@@ -17,7 +17,7 @@ class TicTacToe:
             if board[i] != 0: count += 1
         return count
 
-    def _debugPrint():
+    def _debugPrint(self):
         print(*self.board)
 
 class CLIInterface:
@@ -38,3 +38,4 @@ class CLIInterface:
 
 game = TicTacToe()
 game.setField(1,1,5)
+game._debugPrint()
