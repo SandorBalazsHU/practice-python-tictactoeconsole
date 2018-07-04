@@ -8,7 +8,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{43930910-A076-4D26-B30D-99575C22ED63}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
+		TestSettings.testsettings = TestSettings.testsettings
 	EndProjectSection
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonTicTacToe.UnitTests", "PythonTicTacToe.UnitTests\PythonTicTacToe.UnitTests.pyproj", "{5EBB09FA-75C8-478A-A29E-F462D8D58245}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +21,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E64B6564-99B1-4B04-87A2-4FDA759E8A38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E64B6564-99B1-4B04-87A2-4FDA759E8A38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EBB09FA-75C8-478A-A29E-F462D8D58245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EBB09FA-75C8-478A-A29E-F462D8D58245}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
